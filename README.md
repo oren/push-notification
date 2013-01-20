@@ -73,7 +73,7 @@ Push to Android is coming soon.
 
 ### register and push locally
 
-    curl -H "Content-type: application/json" -X POST -d '{"user_id" : "1", "app_id" : "mongoose", "token" : "<1c891aa7 23b2056b 8df4d9c1 a2ce5103 f307a3a2 a7e0699e 9b35c277 36584d68>", "device_id" : "123"}'  0.0.0.0:3000/register
+    curl -H "Content-type: application/json" -X POST -d '{"user_id" : "1", "app_id" : "mongoose", "token" : "<24352534 41341234>", "device_id" : "123"}'  0.0.0.0:3000/register
     curl -H "Content-type: application/json" -X POST -d '{"user_id" : "1", "app_id" : "mongoose", "message" : "you have 3 missed calls"}'  0.0.0.0:3000/push
 
 ## Production
