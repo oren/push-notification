@@ -18,7 +18,6 @@ var health = require('./health.js');
 var checkHealth = require('./checkHealth.js');
 var pusher = require('./pusher.js');
 var register = require('./register.js');
-var registerLegacy = require('./registerLegacy.js');
 
 http.createServer(function(req, res) {
   if (req.url == '/push') { 
@@ -31,13 +30,6 @@ http.createServer(function(req, res) {
   } else if (req.url == '/register') { 
     if(req.method.toLowerCase() == 'post') {
       register(db, req, res);
-    } else {
-      res.statusCode = 405;
-      res.end();
-    }
-  } else if (req.url == '/register.php') { 
-    if(req.method.toLowerCase() == 'post') {
-      registerLegacy(db, req, res);
     } else {
       res.statusCode = 405;
       res.end();

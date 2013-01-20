@@ -24,16 +24,7 @@ Push to Android is coming soon.
     202
     {"user_id" : 1, "app_id" : "mongoose", "message" : "you have 3 missed calls"}
 
-3) Register a ypmobile (legacy, will be depricated)
-
-    curl -H "Content-type: application/json" -X POST -d '{"appId" : "ypmobile", "dvn" : "kuba iphone", "m" : "register-apns-device", "tkn" : "123456", "udid" : "4434", "uid" : "1"}' 0.0.0.0:3000/register.php
-
-    =>
-
-    201
-    {"appId" : "ypmobile", "dvn" : "kuba iphone", "m" : "register-apns-device", "tkn" : "123456", "udid" : "4434", "uid" : "1"}
-
-4) Get server health status
+3) Get server health status
 
     curl 0.0.0.0:3000/health
 
@@ -43,7 +34,7 @@ Push to Android is coming soon.
     {"pid":2358,"memory":{"rss":9658368,"heapTotal":6131200,"heapUsed":3390248},"uptime":304.4072011373937}
 
 
-5) Get server health status.txt
+4) Get server health status.txt
 
     curl 0.0.0.0:3000/health.txt
 
