@@ -1,3 +1,8 @@
+// validating push data
+// //
+// // if data is valid return data
+// // else return false
+
 module.exports = validate;
 
 function validate(data) {

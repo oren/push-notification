@@ -1,3 +1,8 @@
+// validating registration data
+// //
+// // if data is valid return true
+// // else return false
+
 module.exports = validate;
 
 function validate(data) {
