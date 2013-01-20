@@ -1,0 +1,24 @@
+{
+  "name": "push",
+  "version": "0.0.1",
+  "description": "http server for recieving notifications * module for sending notifications to Apple push notification server (APNS) * module for saving notifications in MongoDB (failed or successful)",
+  "main": "mongo.js",
+  "scripts": {
+    "test": "NODE_ENV=test ls test/unit/*.js | xargs -L1 node",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.corp.attinteractive.com:dstools/pusher.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "apn": "~1.2.4",
+    "mongodb": "~1.2.9"
+  },
+  "devDependencies": {
+    "request": "~2.12.0"
+  }
+}
