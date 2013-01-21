@@ -1,3 +1,7 @@
+// Save user's iPhone details in the DB
+//
+// first validate the data and save it (insert new one or update existing one)
+
 module.exports = register;
 
 var validRegisterData = require('./validateRegisterData.js');

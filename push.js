@@ -1,7 +1,7 @@
 // Making the push to Apple servers
-// //
-// // token - device identifier ('aoeuhtns aoeuhtns aoeuhtns ... ...')
-// // message - string ('you got 3 missed calles')
+//
+// token - device identifier ('aoeuhtns aoeuhtns aoeuhtns ... ...')
+// message - string ('you got 3 missed calles')
 
 module.exports = push;
 

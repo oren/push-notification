@@ -1,7 +1,9 @@
-// This module is doing the following:
-// // validate the push data,
-// // find all devices of the user_id
-// // and call the push function on each device
+// Send the push data to each of the user's iPhones
+//
+// The push function is doing the following:
+// validate the push data,
+// find all devices of the user_id
+// and call the push function (the one passed as an argument)on each device
 
 module.exports = push;
 
