@@ -1,3 +1,8 @@
+// This module is doing the following:
+// // validate the push data,
+// // find all devices of the user_id
+// // and call the push function on each device
+
 module.exports = push;
 
 var validPushData = require('./validatePushData.js');
